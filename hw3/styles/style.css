@@ -1,0 +1,194 @@
+body {
+	background-color: #fff;
+}
+
+.content {
+	font-family: Georgia;
+}
+
+/*Main page table properties*/
+.main {
+	border: none;
+	width: 100%;
+	height: 100;
+	text-align: center;
+
+}
+
+/*Let the navigation bar items to be of the same size*/
+.nav {
+
+	width: 20%;
+
+}
+
+
+
+/*No underline and color change for the links in the menu!*/
+.navigation {
+	font: bold 1.4em  Courier;
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+
+#next {
+
+	font: normal 0.8em  Courier;
+	text-decoration: none;
+	color: white;
+	display: block;
+	background-color: black;
+	width: 50px;
+	margin: auto;
+	padding: 2px;
+}
+
+.navigation:hover {
+	background-color: black;
+	color: #fff;
+}
+
+#footer {
+
+	font:.7em Courier;
+}
+
+/* Change the style of the search bar an button*/
+input[type=text]{
+	width:50%;
+	border: none;
+	border-bottom: 1px solid black;
+	outline: none;
+}
+
+input[type=text]:focus {
+
+	border-bottom: 2px solid black;
+}
+
+.button {
+	background-color: black;
+	color: white;
+	border:none;
+	padding:3px 5px;
+	font-size: .8em;
+	margin: 5 0;
+
+}
+
+::placeholder {
+	color: black;
+	opacity: 0.9;
+	font-family: Courier;
+}
+
+h2 {
+	font-size: 1.3em;
+}
+
+.contact {
+	/*border: 1px solid black;*/
+	text-align: center;
+	width: 100%;
+	padding: 10px;
+	/*border-collapse: collapse;*/
+}
+
+.left {
+/*	border: 1px solid black;*/
+	text-align: right;
+	border-collapse: collapse;
+	width: 50%;
+	padding: 5px;
+	vertical-align: top;
+	font: 1em Georgia;
+}
+.right {
+	/*border: 1px solid black;*/
+	text-align: left;
+	border-collapse: collapse;
+	width: 50%;
+	padding: 5px;
+}
+
+textarea {
+	resize: none;
+	text-align: left;
+}
+
+.contenttable {
+	border: none;
+	width: 60%;
+	margin: auto;
+	float: none;
+	padding: 5px;
+}
+
+.contenttable p {
+
+	text-align: justify;
+}
+
+.contenttable td {
+	text-align: center;
+}
+
+.newsimg {
+	height:270px;
+}
+
+div {
+	text-align: center;
+}
+
+hr {
+	width: 50%;
+}
+
+.releasetable {
+	border: none;
+	width: 60%;
+	margin: auto;
+	float: none;
+	padding: 5px;
+}
+
+
+.releaseimg {
+	width:50%;
+	vertical-align: top;
+	text-align: right;
+}
+
+.releasename {
+	height: 20%;
+	text-align: center;
+	width: 50%;
+}
+
+.releasetracklist {
+	text-align: left;
+	vertical-align: top;
+	width: 50%;
+}
+
+.artist {
+	font: bold 1.7em/1.2em Georgia;
+}
+.album {
+	font: italic 1.7em/1.2em Georgia;
+
+}
+
+.year {
+	text-align: center;
+	font: 1.3em/1.2em Georgia;
+
+}
+
+.preformatted {
+	white-space: pre;
+	font-family: Courier;
+	font-size: 1em;
+}
