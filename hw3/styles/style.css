@@ -55,7 +55,7 @@ body {
 
 /*Font for the footer*/
 #footer {
-
+	padding-top: 10px;
 	font:.7em Courier;
 
 }
