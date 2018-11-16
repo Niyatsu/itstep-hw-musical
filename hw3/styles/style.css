@@ -1,7 +1,9 @@
-body {
+/*Заявляю цвет фона для всех страниц. Зачем-то белый*/
+body {						
 	background-color: #fff;
 }
 
+/*All right, main font will be Georgia*/
 .content {
 	font-family: Georgia;
 }
@@ -32,6 +34,7 @@ body {
 	display: block;
 }
 
+/*That's for the "next" button on news page*/
 #next {
 
 	font: normal 0.8em  Courier;
@@ -44,17 +47,20 @@ body {
 	padding: 2px;
 }
 
+/*Make the nav bar a bit animated*/
 .navigation:hover {
 	background-color: black;
 	color: #fff;
 }
 
+/*Font for the footer*/
 #footer {
 
 	font:.7em Courier;
+
 }
 
-/* Change the style of the search bar an button*/
+/* Change the style of the search bar and button*/
 input[type=text]{
 	width:50%;
 	border: none;
@@ -83,10 +89,14 @@ input[type=text]:focus {
 	font-family: Courier;
 }
 
+/*Change the font size for page headers*/
 h2 {
 	font-size: 1.3em;
 }
 
+/*Here we declare properties for the contact page layout
+
+first the main table, then the left and right columns*/
 .contact {
 	/*border: 1px solid black;*/
 	text-align: center;
@@ -112,11 +122,16 @@ h2 {
 	padding: 5px;
 }
 
+/*Remove the resize option from textarea, start typing from the left*/
 textarea {
 	resize: none;
 	text-align: left;
 }
 
+/*That's basically the main table for reviews and news
+as they are of the same size. Release table has the same properties,
+but i have some dependencies here, so i couldn't use this class for
+releases page, though it could be rewritten and optimized */
 .contenttable {
 	border: none;
 	width: 60%;
@@ -125,6 +140,10 @@ textarea {
 	padding: 5px;
 }
 
+/*Exactly, these are the mentioned dependencies. Shame on me.
+
+Some properties for the paragraphs and cells. Also, 
+a class for images height, this one is used all over the page*/
 .contenttable p {
 
 	text-align: justify;
@@ -138,6 +157,7 @@ textarea {
 	height:270px;
 }
 
+/*Declare some stuff fot div's and lines*/
 div {
 	text-align: center;
 }
@@ -146,6 +166,9 @@ hr {
 	width: 50%;
 }
 
+/*Right, here's the table for the releases page. Finally I got rid
+of the idea of using cascading dependencies, but was too lazy
+to rewrite the upper code*/
 .releasetable {
 	border: none;
 	width: 60%;
@@ -154,13 +177,14 @@ hr {
 	padding: 5px;
 }
 
-
+/*Aligning the cell with the album art*/
 .releaseimg {
 	width:50%;
 	vertical-align: top;
 	text-align: right;
 }
 
+/*Formatting the album name*/
 .releasename {
 	height: 20%;
 	text-align: center;
@@ -168,6 +192,8 @@ hr {
 	padding-left: 50px;
 }
 
+/*Cell with the album tracklist. Below are declarations for 
+the names*/
 .releasetracklist {
 	text-align: left;
 	vertical-align: top;
@@ -189,8 +215,35 @@ hr {
 
 }
 
+/*Had to use preformatted text, <ol>'s and <li>'s are just too massive*/
 .preformatted {
 	white-space: pre;
 	font-family: Courier;
 	font-size: 1em;
+}
+
+/*Couple of properties for the reviews table cells. Not much, just some tweaks*/
+.reviewname {
+	width: 50%;
+	text-align: center;
+}
+
+.reviewmark {
+	width: 20%;
+}
+
+.imgsocial {
+	
+	border: 1px solid black;
+	height: 18px;
+	width: 18px;
+	border-radius: 9px;
+	float: left;
+	margin-right: 3px;
+	
+}
+
+.imgsocial:hover {
+	border: 2px solid black;
+
 }
