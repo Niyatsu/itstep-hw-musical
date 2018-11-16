@@ -1,86 +1,70 @@
 <html>
 	<head>
 		<meta charset="UTF-8"/>
-		
+		<link rel="stylesheet" type="text/css" href="styles/style.css">
 		<title>
 			Pitchknife
 		</title>
 	</head>
 		
 	<body>
-		<table border="0" cellspacing="0" width="100%" height="100%" align="center">
-			<tr align="center">
-				<td	colspan="4">
-					<img src="img/header.png"/ align="center">
+		<table class="main">
+			<tr>
+				<td	colspan="5">
+					<img src="img/header.png" align="center"/>
 				</td>
 			</tr>
-			
-			<tr align="right">
-				<td colspan="4">
+				
+			<tr>
+				<td class="nav">
+					<a class="navigation" href="files/news.htm" target="content">
+						News
+
+					</a>
+				</td>
+					
+				<td class="nav">
+					<a class="navigation" href="files/releases.htm" target="content">
+						New Releases
+								
+					</a>
+				</td>
+					
+				<td class="nav">
+					<a class="navigation" href="files/reviews.htm" target="content">
+						New Reviews
+					</a>
+				</td>
+					
+				<td class="nav">
+					<a class="navigation" href="files/contact.htm" target="content">
+						Contact Us
+					</a>
+				</td>
+
+				<td>
 					<form>		
-						<input type="text" placeholder="Search" />
-						<input type="submit" value="GO"/>
+						<input type="text" placeholder="Search" class="mainpage"/>
+						<input type="submit" value="GO" class="button"/>
 					</form>
 					
 					
 				</td>
 			</tr>
-				
-			<tr align="center" >
-					<td>
-						<a href="files/news.htm" target="content">
-							<font size="4" face="Courier">
-								<b>
-									News
-								</b>
-							</font>
-						</a>
-					</td>
-					
-					<td>
-						<a href="files/releases.htm" target="content">
-							<font size="4" face="Courier">
-								<b>
-									New Releases
-									
-								</b>
-							</font>
-						</a>
-					</td>
-					
-					<td>
-						<a href="files/reviews.htm" target="content">
-							<font size="4" face="Courier">
-								<b>
-									New Reviews
-								</b>
-							</font>
-						</a>
-					</td>
-					
-					<td>
-						<a href="files/contact.htm" target="content">
-							<font size="4" face="Courier">
-								<b>
-									Contact Us
-								</b>
-							</font>
-						</a>
-					</td>
-			</tr>
+
 			
-			<tr valign="top">
-				<td colspan="4">
-					<iframe name="content" src="files/news.htm" width="100%" height="500" frameborder="0"> </iframe>
+			<tr>
+				<td colspan="5" height="100%">
+					<iframe name="content" src="files/news.htm" width="100%" height="100%" frameborder="0"></iframe>
 				</td>
 			</tr>
 			
 			
-			<tr align="center" bgcolor="ffffff">
-				<td colspan="4">
-					<font size="2" face="Courier">
+			<tr>
+				<td id="footer" colspan="5">
 						Copyright &copy; 2018 belongs to Pitchknife LLC
-					</font>
+						<img src="img/social/fb.png"/ class="imgsocial">
+						<img src="img/social/twit.png"/ class="imgsocial">
 				</td>
 			
 			</tr>
