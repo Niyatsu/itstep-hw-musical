@@ -1,0 +1,293 @@
+* {
+    box-sizing: border-box;
+}
+
+/*Заявляю цвет фона для всех страниц. Зачем-то белый*/
+body {						
+	background-color: #fff;
+    font-family: Georgia;
+    margin: 0;
+}
+
+img {
+    height: 270px;
+}
+/*Центрирую изображение в заголовке*/
+header
+img {
+/*       background-color: #333;*/
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+/*Центрирую навигацию и задаю ширину*/
+nav {
+    margin: auto;
+    width: 1000px;
+    
+/*    background-color: aqua;*/
+}
+
+nav
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+/*Горизонтальное меню + поиск, поэтому флоат здесь*/
+nav
+ul
+li {
+    float: left;
+    width: 180px;
+    margin: 0 5px;
+/*
+    background-color: aquamarine;
+    border: 1px solid black;
+*/
+}
+
+/*Так выглядят пункты меню*/
+ul
+a {
+    display: block;
+    text-decoration: none;
+    font: bold 1.4em Courier;
+    text-align: center;
+}
+
+/*Убираем всякие цвета*/
+ul
+a:visited {
+    color: black;
+}
+
+ul
+a:hover {
+    background-color: black;
+	color: #fff;
+}
+
+input[type=text]{
+	width:50%;
+	border: none;
+	border-bottom: 1px solid black;
+	outline: none;
+}
+
+input[type=text]:focus {
+
+	border-bottom: 2px solid black;
+}
+
+input[type=submit] {
+    background-color: black;
+	color: white;
+	border:none;
+	padding:3px 5px;
+	font-size: .8em;
+	margin: 5 0;
+}
+
+nav
+form {
+    margin: 0;
+    padding: 0;
+}
+
+.limiter {
+    width: 1000px;
+    margin: 10px auto auto auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+h3 {
+    font-size: 1.1em;
+}
+
+.news {
+/*    background-color: aqua;*/
+    padding: 10px;
+}
+/*Страница новостей*/
+.news
+p {
+    text-align: justify;
+}
+
+.news
+img {
+    margin: auto;
+}
+
+#next {
+    font: normal 0.8em  Courier;
+	text-decoration: none;
+	color: white;
+	display: block;
+	background-color: black;
+	width: 50px;
+	margin: auto;
+	padding: 2px;
+}
+
+/*Страница рецензий*/
+.review {
+    clear: both;
+    margin-top: 15px; 
+}
+.artist {
+    font: bold 1.7em/1.3em Georgia;
+} 
+
+.album {
+    font: italic 1.7em/1.3em Georgia;
+}
+
+.year-tracklist {
+    font: 1.3em/1.3em Georgia;
+/*    border: 1px solid black;*/
+    margin: 5px;
+}
+.rating {
+    font: bold italic 1.7em/1.3em Georgia;
+    float: left;
+    vertical-align: middle;
+    margin-top: 100px;
+}
+
+.review img {
+    display: inline-block;
+    float: left;
+    margin: 10px;
+}
+
+.review section {
+    clear: both;
+}
+.name {
+    float: left;
+    width: 500px;
+    vertical-align: middle;
+    margin-top: 50px;
+}
+
+.review p {
+    text-align: justify;
+}
+
+/*Страница релизов*/
+
+.release {
+    width: 800px;
+    margin: 10px auto ;
+    clear: both;
+     
+}
+
+.release
+img {
+
+    float: left;
+    margin: 10px;
+}
+
+/*
+.release div {
+    background-color: aqua;
+}
+*/
+
+.title {
+    float: left;
+    margin-left: 50px;
+    width: 350px;
+/*
+    background-color: aqua; 
+    border: 1px solid black;
+*/
+}
+
+.tracklist {
+    white-space: pre;
+	font-family: "Georgia";
+	font-size: 1em;
+    text-align: left;
+    margin: 5px 0;
+/*    border: 1px solid black;*/
+}
+
+/*Страшная возня с расположением элементов формы обратной связи*/
+main
+form {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+    
+label {
+    vertical-align: top;
+}
+
+main
+input[type=text] {
+    width: 352px;
+/*    float: right;*/
+
+}
+
+textarea {
+    resize: none;
+	text-align: left;
+    outline: none;
+}
+
+.contactlabels {
+    width: 1000px;
+    margin: 15px auto;
+    clear: both;
+}
+
+/*Подвал*/
+footer {
+	padding-top: 10px;
+	font:.7em Courier;
+    text-align: center;
+    padding: 5px;
+    clear: both;
+}
+
+.imgsocial {
+    border: 1px solid black;
+	height: 22px;
+	width: 22px;
+	border-radius: 11px;
+	float: left;
+	margin: 5px;
+}
+
+.imgsocial:hover {
+    border: 2px solid black;
+}
+/*Для разделительной линии*/
+.hr {
+    height: 1px;
+    width: 500px;
+    border: 0;
+    background: #858687;
+    margin-top: 15px;
+    margin: auto;
+}
+
+.hr-short {
+    height: 1px;
+    width: 100px;
+    border: 0;
+    background: #858687;
+    margin-top: 15px;
+    margin: auto;
+}
