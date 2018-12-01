@@ -12,21 +12,22 @@ body {
 img {
     height: 270px;
 }
+
 /*Центрирую изображение в заголовке*/
 header
 img {
-/*       background-color: #333;*/
     height: auto;
     display: block;
     margin: auto;
 }
 
+.homepage {
+   
+}
 /*Центрирую навигацию и задаю ширину*/
 nav {
     margin: auto;
     width: 1000px;
-    
-/*    background-color: aqua;*/
 }
 
 nav
@@ -42,10 +43,6 @@ li {
     float: left;
     width: 180px;
     margin: 0 5px;
-/*
-    background-color: aquamarine;
-    border: 1px solid black;
-*/
 }
 
 /*Так выглядят пункты меню*/
@@ -55,7 +52,9 @@ a {
     text-decoration: none;
     font: bold 1.4em Courier;
     text-align: center;
+    color: #000;
 }
+
 
 /*Убираем всякие цвета*/
 ul
@@ -111,9 +110,9 @@ h3 {
 }
 
 .news {
-/*    background-color: aqua;*/
     padding: 10px;
 }
+
 /*Страница новостей*/
 .news
 p {
@@ -151,7 +150,6 @@ img {
 
 .year-tracklist {
     font: 1.3em/1.3em Georgia;
-/*    border: 1px solid black;*/
     margin: 5px;
 }
 .rating {
@@ -187,7 +185,6 @@ img {
     width: 800px;
     margin: 10px auto ;
     clear: both;
-     
 }
 
 .release
@@ -207,10 +204,6 @@ img {
     float: left;
     margin-left: 50px;
     width: 350px;
-/*
-    background-color: aqua; 
-    border: 1px solid black;
-*/
 }
 
 .tracklist {
@@ -219,7 +212,6 @@ img {
 	font-size: 1em;
     text-align: left;
     margin: 5px 0;
-/*    border: 1px solid black;*/
 }
 
 /*Страшная возня с расположением элементов формы обратной связи*/
@@ -236,8 +228,6 @@ label {
 main
 input[type=text] {
     width: 352px;
-/*    float: right;*/
-
 }
 
 textarea {
