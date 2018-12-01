@@ -1,11 +1,7 @@
 /*Заявляю цвет фона для всех страниц. Зачем-то белый*/
 body {						
 	background-color: #fff;
-}
-
-/*All right, main font will be Georgia*/
-.content {
-	font-family: Georgia;
+    font-family: Georgia;
 }
 
 /*Main page table properties*/
