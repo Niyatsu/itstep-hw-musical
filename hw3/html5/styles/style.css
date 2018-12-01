@@ -22,7 +22,7 @@ img {
 }
 
 .homepage {
-   
+   height: 80vh;
 }
 /*Центрирую навигацию и задаю ширину*/
 nav {
@@ -189,9 +189,8 @@ img {
 
 .release
 img {
-
     float: left;
-    margin: 10px;
+    margin: 35px 10px 10px 10px;
 }
 
 /*
